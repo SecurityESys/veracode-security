@@ -6,13 +6,13 @@ app:
   # If you want to share this step into a StepLib
   - BITRISE_STEP_ID: veracode-security
   - BITRISE_STEP_VERSION: "1.0.5"
-  - BITRISE_STEP_GIT_CLONE_URL: https://github.com/ryanphillipthomas/veracode-security.git
+  - BITRISE_STEP_GIT_CLONE_URL: https://github.com/SecurityESys/veracode-security.git
   - MY_STEPLIB_REPO_FORK_GIT_URL: $MY_STEPLIB_REPO_FORK_GIT_URL
 
   # define these in your .bitrise.secrets.yml
   - VERACODE_API_ID: $VERACODE_API_ID
   - VERACODE_API_SECRET: $VERACODE_API_SECRET
-  - VERACODE_APP_NAME: $VERACODE_APP_NAME
+  - VERACODE_APP_ID: $VERACODE_APP_ID
   - VERACODE_APP_VERSION: $VERACODE_APP_VERSION
   - VERACODE_SANDBOX: $VERACODE_SANDBOX
   - AUTO_SCAN: true
